@@ -3,7 +3,7 @@ Change wallpaper for different resolution
 Switch wallpaper for different resolution (e.g surface screen rotation)
 
 Including file: test.ps1, run.bat, run.vbs
-
+---
 #Preparations
 1.  Get your screen resolution ($HorizontalWidth & $VerticalWidth )
 2.  Prepare two wallpapers for different resolution
@@ -24,7 +24,7 @@ Including file: test.ps1, run.bat, run.vbs
     Check again then save the file
 5.  Run ```run.vbs``` to start
 6.  *(Optional)* Add ```run.vbs``` to task scheduler
-
+---
 #Sample
 ```Powershell
 if ( ($CWidth -eq 2736 ) -or ($CWidth -eq 1368) ) 
