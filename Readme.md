@@ -16,7 +16,7 @@ Preparations
      elseif ( $CWidth -eq $YourVerticalWidth ) 
          { Set-Wallpaper -Path '$Vertical_Wallpaper_Path' -Style $YourStyle }
     ```
-    Replace ```$YourHorizontalWidth```, ```$YourVerticalWidth``` with specific number (such as 1920 or 1080)
+    Replace ```$YourHorizontalWidth```, ```$YourVerticalWidth``` with specific number (like 1920 or 1080)
     
     Replace ```$Horizontal_Wallpaper_Path```, ```$Vertical_Wallpaper_Path``` with Path of prepared pictures(e.g C:\wallpapers\xxx.jpg)
     
